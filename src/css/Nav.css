@@ -7,20 +7,25 @@
     padding-right: 10px;
     color: rgb(0, 0, 0);
     font-family: 'Castoro Titling', cursive;
+    border-bottom: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
 .nav .social ul li {
     display: inline;
     padding: 20px;
+
 }
 
 .social ul li .github {
     font-size: 30px;
+    color: black;
 
 }
 
 .social ul li .linkdin {
     font-size: 26px;
+    color: black;
 }
 
 .social ul li .twiter {

@@ -13,7 +13,7 @@ export default function NavBar() {
                 <div className="social">
                     <ul>
                         <li><a href="https://github.com/Anand0605"><FaGithubSquare className='github' /></a></li>
-                        <li><BsLinkedin className='linkdin' /></li>
+                        <li><a href="https://www.linkedin.com/in/anand-kumar-gautam-733586207/"><BsLinkedin className='linkdin' /></a></li>
                         <li><FaTwitterSquare className='twiter' /></li>
                     </ul>
                 </div>
