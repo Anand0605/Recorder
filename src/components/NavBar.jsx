@@ -12,8 +12,8 @@ export default function NavBar() {
             <div className="nav-right">
                 <div className="social">
                     <ul>
-                        <a href="https://github.com/Anand0605"><li><FaGithubSquare className='github' /></li></a>
-                        <Link to="https://www.linkedin.com/in/anand-kumar-gautam-733586207/"><li><BsLinkedin className='linkdin' /></li></Link>
+                        <li><a href="https://github.com/Anand0605"><FaGithubSquare className='github' /></a></li>
+                        <li><BsLinkedin className='linkdin' /></li>
                         <li><FaTwitterSquare className='twiter' /></li>
                     </ul>
                 </div>
