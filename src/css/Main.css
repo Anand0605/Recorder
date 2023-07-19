@@ -1,0 +1,136 @@
+.main {
+    display: flex;
+    /* font-family: 'Castoro Titling', cursive; */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 40vw;
+    min-height: 87vh;
+    background-color: rgba(144, 144, 231, 0.993);
+    color: rgb(0, 0, 0);
+    padding-bottom: 80px;
+}
+
+.main .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 80vw;
+    min-height: 90vh;
+    background-color: rgba(144, 144, 231, 0.993);
+    color: rgb(1, 1, 1);
+}
+
+.main .right .recording-area {
+    height: 300px;
+    width: 500px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.main .recorded-item {
+    height: 50%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+    border: 2px solid black;
+
+
+}
+
+.main .recorded-item a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+button {
+    margin: 10px;
+    background-color: rgb(228, 2, 2);
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    border: none;
+}
+
+
+
+@media (530px <=width <=940px) {
+    .main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .main .left {
+        width: 100vw;
+        min-height: 10vh;
+
+    }
+
+    .main .right {
+        width: 100vw;
+        height: 80vh;
+    }
+
+    .main .right .recording-area {
+        max-width: 700px;
+        max-height: 500px;
+    }
+
+    .options {
+        display: flex;
+        flex-wrap: wr;
+        width: 100px;
+    }
+
+}
+
+@media (200px <=width <=529px) {
+    .main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .main .left {
+        width: 100vw;
+        min-height: 10vh;
+
+    }
+
+    .main .right {
+        width: 100vw;
+        height: 80vh;
+    }
+
+    .main .right .recording-area {
+        max-width: 300px;
+        max-height: 200px;
+    }
+
+    .options {
+        font-size: 10px;
+        gap: 1px;
+    }
+
+
+}
